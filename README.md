@@ -65,5 +65,11 @@ run this on your server pc
 ray stop
 ```
 
+## Show Log
+
+```bash
+tensorboard --logdir ~/ray_results --host 0.0.0.0
+```
+
 ## Enjoy it~
 
