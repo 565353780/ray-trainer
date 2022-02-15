@@ -39,13 +39,15 @@ conda activate ray
 ray start --head --port=<target-port>
 ```
 
+it will give you an redis-password, use it on all your server pc
+
 ### Start all Server
 
 run this on all your server pc
 
 ```bash
 conda activate ray
-ray start --address=<client-pc-ip>:<target-port>
+ray start --address=<client-pc-ip>:<target-port> --redis-password=<your-redis-password>
 ```
 
 ## Run your code
