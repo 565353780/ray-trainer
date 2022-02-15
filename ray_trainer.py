@@ -69,7 +69,7 @@ class RayTrainer(object):
         return
 
     def initRay(self):
-        ray.init()
+        ray.init(address="auto")
         return True
 
     def manualTrain(self):
