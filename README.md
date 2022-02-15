@@ -45,7 +45,7 @@ run this on all your server pc
 
 ```bash
 conda activate ray
-ray start --address=<target-address>
+ray start --address=<client-pc-ip>:<target-port>
 ```
 
 ## Run your code
